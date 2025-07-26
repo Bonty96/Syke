@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    :root {
+      --gradient: linear-gradient(90deg, #1e1e1e, #484847);
+      --text-color: #1e1e1e;
+      --bg-color: #fdfdfd;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'SATOSHI', sans-serif;
+      background: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+    header {
+      background: var(--gradient);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #333;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: block;
+    }
+    nav a:hover {
+      background: #484847;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .hero {
+      background: var(--gradient);
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    input, textarea, button {
+      padding: 10px;
+      margin: 8px 0;
+      font-size: 1em;
+    }
+    button {
+      background: #f96c00;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #f7d700;
+    }
+    profile-pic {
+        width: 20px;
+        height: 20px;
+        object-fit: cover;
+        border-color: #1e1e1e;
+        margin: 20px 0;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ilyasu Musah – Graphic Designer</h1>
+    <p>Crafting stellar and memorable brands, one design at a time</p>
+  </header>
+  <nav>
+    <a href="#hero">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#skills">Tools & Skills</a>
+    <a href="#work">My Work</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section id="hero" class="hero">
+    <h2>Welcome to My Portfolio</h2>
+    <p>Let's turn ideas into visuals.</p>
+  </section>
+  <section id="about">
+    <h2>About Me</h2>
+      <img src="sogvdl.jpg" alt="my picture" style="width: 100%; border-radius: 20px;">
+    <p>A multidisciplinary graphic designer with over 3 years of experience, pixel poet weaving visual storylines and creating stunning & functional designs to bridge the gap between clients & their audience. Crypto enthusiast, Formula 1 fan, Low-key Otaku. And so the storm broke, and the dragons danced...</p>
+
+
+    <h2>PAST</h2>
+    <p>Started out in the year 2022 as a social media graphics design with just the vision of helping brands reach their audience in the most efficient way possible. Afte a one-month long online course, I decided to make personal research into the field of the design and its possible opportunities</p>
+
+     <h2>PRESENT</h2>
+     <p>Over 20+ brands and almost 1k designs made, I have worked with almost every niche from crypto to healthcare, education to entertainnment. Now a print designer and social media designer with almost 4 years of experience, I now set my sights on the land of 3d modeling, web dev & design and programming</p>
+
+     <h2>FUTURE</h2>
+     <P>With my gaze set firmly ahead, i plan on creating a bold solution to the economic issue in the Agricultural sector in Nigeria, by drawing upon all my skills, experience and sheer luck, i would be able to properly craft a software that would be accessible to both tech savvy youth and the average run-of-the-mill farmer. It gets easier (learning, working, living), you just have to do it everyday -thats the hard part, but it gets easier</P>
+  </section>
+  <section id="skills">
+    <h2>Tools</h2>
+
+      <li>Adobe Photoshop</li>
+      <li>Corel Draw</li>
+      <li>Pixellab</li>
+      <li>Snapseed</li>
+
+  <h2>Skills</h2>
+<li>Branding</li>
+<li>flyer design</li>
+<li>Motion design</li>
+<li>logo design<li>
+  <section id="work">
+    <h2>My Work</h2>
+    <div class="gallery">
+      <img src="AMAPIANO WEEKEND 10TH MAY.jpg" alt="Work 1">
+      <img src="ass up 9th july.jpg" alt="Work 2">
+      <img src="1001154468-02.jpeg" alt="Work 3">
+    </div>
+  </section>
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+</body>
+</html>
